@@ -40,6 +40,8 @@ DB_PORT=your_db_port <br/>
 DB_USER=your_db_user <br/>
 DB_PASSWORD=your_db_password
 
+### Run your mysql service, in this case xampp, activate service in the control panel
+
 ### Make migrations (located in app/ to execute this command)
 ```bash
 $ python manage.py makemigrations
