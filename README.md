@@ -33,14 +33,16 @@ $ env\Scripts\activate
 $ pip install -r requirements.txt
 ```
 
+### Run your mysql service, in this case xampp, activate service in the control panel
+
+### Create a empty database in mysql
+
 ### Create .env file in this route app/app/.env with this fields (example)
 DB_NAME=your_db_name <br/>
 DB_HOST=your_db_host <br/>
 DB_PORT=your_db_port <br/>
 DB_USER=your_db_user <br/>
 DB_PASSWORD=your_db_password
-
-### Run your mysql service, in this case xampp, activate service in the control panel
 
 ### Make migrations (located in app/ to execute this command)
 ```bash
