@@ -44,23 +44,18 @@ DB_PORT=your_db_port <br/>
 DB_USER=your_db_user <br/>
 DB_PASSWORD=your_db_password
 
-### 9. Make migrations (located in app/ to execute this command)
-```bash
-python manage.py makemigrations
-```
-
-### 10. Migrate
+### 9. Migrate (located in app/ to execute this command)
 ```bash
 python manage.py migrate
 ```
 
-### 11. Create superUser to ApiAuth requests
+### 10. Create superUser to ApiAuth requests
 ```bash
 python manage.py createsuperuser --email admin@example.com --username admin
 ```
 
-### 12. Run server
+### 11. Run server
 ```bash
 python manage.py runserver
 ```
-### 13. (IMPORTANT) To fill the database, do a GET request in this url localhost:8000/seed/
+### 12. (IMPORTANT) To fill the database, do a GET request in this url localhost:8000/seed/
