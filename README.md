@@ -1,7 +1,10 @@
 # turpial-djangorest-test
 
 ## Specifications and Develop Enviroment
-specification by https://www.conventionalcommits.org/en/v1.0.0/
+- python: v3.10.8 <br/>
+- mysql manager (xampp): v8.0.11 <br/>
+- postman: v10.5.2 <br/>
+- commits standard: https://www.conventionalcommits.org/en/v1.0.0/
 
 ## Install
 
